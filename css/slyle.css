@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Poppins&display=swap");
 
 body {
-  background-color: #d5e1ef;
+  background-color: #e1f1d4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +70,7 @@ body {
   font-weight: 400;
   margin: 5px 0 0 0;
   padding: 0 5px;
-  color: #7ccdc5;
+  color: #629fc5;
 }
 
 .descr-container {
@@ -107,7 +107,7 @@ body {
 }
 
 .swiper-slide-active .card {
-  box-shadow: 0 8px 30px -7px #c9dff0;
+  box-shadow: 0 8px 30px -7px #719356;
   opacity: 1;
   transform: scale(1.5);
 }
@@ -121,6 +121,11 @@ body {
 .swiper-button-prev:focus {
   outline: none;
 }
+
+.swiper-pagination-bullet-active{
+  background-color: #719356;
+}
+
 
 @media (max-height: 400px) {
   .header {
