@@ -5,6 +5,10 @@ const swiper = new Swiper(".swiper-carousel", {
     keyboard: {
         enabled: true,
     },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     loop: true,
     pagination: {
         el: ".swiper-pagination",
@@ -38,6 +42,6 @@ function resizeTextToFit() {
     });
 }
 resizeTextToFit();
-addEventListener("resize", (event)=> {
+addEventListener("resize", ()=> {
     resizeTextToFit();
 });
